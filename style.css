@@ -12,7 +12,7 @@ header img{
     height: auto;
     max-width: 10rem;
 }
-nav{
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,7 +25,7 @@ nav{
  
     
 }
-nav ul{
+.navbar ul{
     display: flex;
     gap: 3rem;
     list-style: none;
@@ -40,7 +40,7 @@ nav a{
      transition: background-color 0.3s ease;
 
 }
-nav a:hover{
+.navbar a:hover{
     color: red;
 }
 
@@ -691,6 +691,29 @@ footer{
 }
 
 
+            /*catalogue page*/
+
+.main-catalogue{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.catalogue-cours{
+    display: flex;
+    background-color: #000;
+    color: #fff;
+}
+.catalogue-cours1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.catalogue-cours2{
+      display: flex;
+    align-items: center;
+    gap: 1rem;  
+}
     /* Responsive*/
 
 @media only screen and (max-width:768px) {
