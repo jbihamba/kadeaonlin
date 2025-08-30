@@ -699,8 +699,13 @@ footer{
     max-width: 60%;
     gap: 2rem;
 }
+.filtre-icon{
+    display: none;
+}
 
-
+.filtre-icon img{
+    width: 15px;
+}
 aside h2{
     font-family: Arial, Helvetica, sans-serif;
     color: #3e3d3d;
@@ -869,8 +874,28 @@ aside h2{
     margin-bottom: 5%;
     width: 31%;
     /*padding: 0 2rem;*/
-    border: 1px solid #2b292b;
+    border: 1px  solid #2b292b;
+    /*outline: 1px solid #2b292b;
+    outline-offset: 10px; */
     border-radius: 5px;
+   position: relative;
+   cursor: pointer;
+}
+        /*Outline*/
+
+.card-course-detaille::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: -10px;   /* étend vers la droite */
+  bottom: -10px;  /* étend vers le bas */
+  border-top: 1px solid #2b292b;
+  border-right: 1px solid #2b292b;  /* "outline" à droite */
+  border-left: 1px solid #2b292b;
+  border-bottom: 1px solid #2b292b; /* "outline" en bas */
+  border-radius: 5px;
+  
 }
 .card-course{
      background-color: #e30613;
@@ -896,14 +921,15 @@ aside h2{
     width: 10%;
     height: 20px;
 }
+
+
 .we-act p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
     color: #5e6472;
     padding: 3rem 1rem 4rem;
-    /*padding-top: 3rem;
-    padding-left: 1rem;*/
+
 }
 .card-debut-logo{
     display: flex;
@@ -911,10 +937,23 @@ aside h2{
     gap: 1rem;
     padding: 1rem;
 }
+.lang-fr{
+    margin-left:1rem;
+
+}
 .card-debut-logo img{
     
     width: 15%;
     height: auto;
+}
+.temps-logo{
+    display: flex;
+    align-items: center;
+}
+.temps-logo img{
+    width: 20%;
+    height: 30px;
+    margin: 1px;
 }
 .card-suivre-cours{
     display: flex;
@@ -930,6 +969,7 @@ aside h2{
     font-weight: 500;
 }
     /* Responsive*/
+    /* Home page */
 
 @media only screen and (max-width:768px) {
     header{
@@ -948,6 +988,8 @@ aside h2{
         flex-direction: column;
         background-color: #fff;
         right: 1rem;
+        text-align: center;
+        width: 100%;
         padding:1rem ;
         border-radius: 10px;
       
@@ -1303,4 +1345,95 @@ aside h2{
 }
 
     
+}
+
+        /* Catalogue */
+
+@media only screen and (max-width:780px) {
+    .main-catalogue{
+   display: flex; 
+   flex-direction: column;
+     margin: 0 auto;
+    max-width: 90%;
+   
+}
+ .header-catalogue{
+   max-width:90%;
+    margin: 0 auto;
+}
+    .navbar ul {
+        display: none;
+        position: absolute;
+        
+    }
+        /*Menu burger*/
+
+    #menu:checked  ~.nav-list{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        /*right: 1rem;*/
+        text-align: center;
+        padding:1rem ;
+        width: 100%;
+        height: 100vh;
+        border-radius: 10px;
+      
+    }
+    .menu-icon{
+        display: block;
+    }
+
+.aside-catalogue{
+   display: none;
+   position: absolute; 
+}
+        /*filtre menu*/
+
+#filtrer:checked ~ .aside-catalogue{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 4rem 0;
+    padding: 2rem;
+    left: 2rem;
+    width: 100%;
+    background-color: #fff;
+}
+.filtre-icon{
+    display: block;
+    text-align: center;
+    background-color: #e30613;
+    padding: 1rem;
+    margin: 0 1rem;
+    color: #fff;
+    border-radius: 10px;
+}
+.section-catalogue h1 {
+
+    font-size: 1.35rem;
+    margin: 0 1rem;
+    padding-bottom: 3rem;
+}
+
+.sujet {
+    margin: 0 1rem;
+    font-size: 1.35rem;
+    line-height: 2rem;
+}
+.course-number h2 {
+
+    font-size: 1rem;
+
+}
+
+.course-number p {
+   
+    font-size: 1rem;
+    
+}
+.card-course-detaille {
+    width: 95%;
+    cursor: pointer;
+}
 }
