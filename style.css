@@ -1349,7 +1349,7 @@ aside h2{
 
         /* Catalogue */
 
-@media only screen and (max-width:780px) {
+@media only screen and (max-width:768px) {
     .main-catalogue{
    display: flex; 
    flex-direction: column;
@@ -1403,11 +1403,15 @@ aside h2{
 .filtre-icon{
     display: block;
     text-align: center;
-    background-color: #e30613;
+    border:2px solid #e30613;
     padding: 1rem;
     margin: 0 1rem;
+    color: #000;
+    border-radius: 40px;
+}
+.filtre-icon:hover{
+    background-color: #e30613;
     color: #fff;
-    border-radius: 10px;
 }
 .section-catalogue h1 {
 
@@ -1436,4 +1440,20 @@ aside h2{
     width: 95%;
     cursor: pointer;
 }
+}
+
+@media only screen and (width: 768px) {
+    .filtre-icon{
+        font-size: 1.5rem;
+    }
+      .course-number h2 {
+        font-size: 1.5rem;
+    }
+     .course-number p {
+        font-size: 1.5rem;
+    }
+    .card-course-detaille {
+        width: 45%;
+        
+    }
 }
