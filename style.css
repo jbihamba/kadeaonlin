@@ -216,7 +216,10 @@ nav a{
      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
     
 }
-
+.reponsive-container a{
+    text-decoration: none;
+    color: #3e3d3d;
+}
 .javascript-container{
        display: flex;
        align-items: center;
@@ -991,13 +994,28 @@ aside h2{
     padding: 15px;
     margin-bottom: 25px;
     border: 1px solid transparent;
+    border-radius: 5px;
     margin-top: 2rem;
    
 }
 .div-alerte p{
+    font-size: 18px;
+    font-weight: 100;
      color: #31708f;
 }
-
+.section-responsive-content{
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background: #f5f6f7;
+}
+.section-responsive-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1rem ;
+    line-height: 1.5rem;
+    font-weight: 200;
+    color: #27272a;
+}
     /* Responsive*/
     /* Home page */
 
