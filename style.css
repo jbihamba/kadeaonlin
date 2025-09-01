@@ -968,6 +968,36 @@ aside h2{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
+
+        /*reponsive web design page*/
+
+.section-responsive{
+    max-width: 60%;
+    margin: 0 auto;
+}
+.section-responsive h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    padding: 20px 0;
+}
+.section-responsive p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e30613;
+    font-size: 1.17rem;
+}
+.div-alerte {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid transparent;
+    margin-top: 2rem;
+   
+}
+.div-alerte p{
+     color: #31708f;
+}
+
     /* Responsive*/
     /* Home page */
 
