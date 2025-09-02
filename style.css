@@ -1798,10 +1798,29 @@ progress{
  width: 20rem;
 
 }
-
-    
+  
 }
 
+@media only screen and (width:1440px) {
+    header {
+    max-width: 80%;
+   
+}
+.sili-image {
+    width: 80%;
+  
+}
+.bootcamps {
+
+    width: 80%;
+
+}
+.section-blue {
+
+    width: 80%;
+   
+}
+}
         /* Catalogue */
 
 @media only screen and (max-width:768px) {
@@ -1911,4 +1930,293 @@ progress{
         width: 45%;
         
     }
+}
+
+/*responsive de la page responsive*/
+
+@media only screen and (max-width:768px) {
+    .section-responsive {
+    max-width: 90%;
+}
+.section-responsive h1 {
+   
+    font-size: 1.5rem;
+}
+.section-progress {
+    
+    max-width: 90%;
+}
+.section-progress h2 {
+    font-size: 1.35rem;
+}
+.div-progress p {
+   
+    font-size: .9rem;
+}
+.section-syllabus h1 {
+    
+    font-size: 1.35rem;
+}
+ .section-syllabus {
+   
+    max-width: 90%;
+}
+.syllabus-html-title h3 {
+   
+    font-size: 1.17rem;
+}
+.syllabus-html-title h2 {
+    
+    font-size: 1.17rem;
+
+}
+.syllabus-html-descreption p {
+    font-size: 1rem;
+    
+}
+.syllabus-html-contenair {
+  
+    padding: 0.5rem 1rem;
+
+}
+.syllabus-html-content {
+
+    margin-top: 1rem;
+}
+.syllabus-html-descreption {
+
+    margin: 1rem 2rem 0;
+}
+.details summary {
+   
+    font-size: 1rem;
+   
+}
+.details a {
+  
+    font-size: 1rem;
+    
+}
+.details li::marker {
+    font-size: 30px;
+}
+.syllabus-css-title h3 {
+   
+    font-size: 1.17rem;
+}
+.syllabus-css-title h2 {
+    
+    font-size: 1.17rem;
+
+}
+.syllabus-css-descreption p {
+    font-size: 1rem;
+    
+}
+.syllabus-css-contenair {
+  
+    padding: 0.5rem 1rem;
+
+}
+.syllabus-css-content {
+
+    margin-top: 1rem;
+}
+.syllabus-css-descreption {
+
+    margin: 1rem 2rem 0;
+}
+
+.syllabus-visuel-title h3 {
+   
+    font-size: 1.17rem;
+}
+.syllabus-visuel-title h2 {
+    
+    font-size: 1.17rem;
+
+}
+.syllabus-visuel-descreption p {
+    font-size: 1rem;
+    
+}
+.syllabus-visuel-contenair {
+  
+    padding: 0.5rem 1rem;
+
+}
+.syllabus-visuel-content {
+
+    margin-top: 1rem;
+}
+.syllabus-visuel-descreption {
+
+    margin: 1rem 2rem 0;
+}
+
+.syllabus-acc-title h3 {
+   
+    font-size: 1.17rem;
+}
+.syllabus-acc-title h2 {
+    
+    font-size: 1.17rem;
+
+}
+.syllabus-acc-descreption p {
+    font-size: 1rem;
+    
+}
+.syllabus-acc-contenair {
+  
+    padding: 0.5rem 1rem;
+
+}
+.syllabus-acc-content {
+
+    margin-top: 1rem;
+}
+.syllabus-acc-descreption {
+
+    margin: 1rem 2rem 0;
+}
+
+.syllabus-prin-title h3 {
+   
+    font-size: 1.17rem;
+}
+.syllabus-prin-title h2 {
+    
+    font-size: 1.17rem;
+
+}
+.syllabus-prin-descreption p {
+    font-size: 1rem;
+    
+}
+.syllabus-prin-contenair {
+  
+    padding: 0.5rem 1rem;
+
+}
+.syllabus-prin-content {
+
+    margin-top: 1rem;
+}
+.syllabus-prin-descreption {
+
+    margin: 1rem 2rem 0;
+}
+
+.syllabus-flexbox-title h3 {
+   
+    font-size: 1.17rem;
+}
+.syllabus-flexbox-title h2 {
+    
+    font-size: 1.17rem;
+
+}
+.syllabus-flexbox-descreption p {
+    font-size: 1rem;
+    
+}
+.syllabus-flexbox-contenair {
+  
+    padding: 0.5rem 1rem;
+
+}
+.syllabus-flexbox-content {
+
+    margin-top: 1rem;
+}
+.syllabus-flexbox-descreption {
+
+    margin: 1rem 2rem 0;
+}
+
+.syllabus-grid-title h3 {
+   
+    font-size: 1.17rem;
+}
+.syllabus-grid-title h2 {
+    
+    font-size: 1.17rem;
+
+}
+.syllabus-grid-descreption p {
+    font-size: 1rem;
+    
+}
+.syllabus-grid-contenair {
+  
+    padding: 0.5rem 1rem;
+
+}
+.syllabus-grid-content {
+
+    margin-top: 1rem;
+}
+.syllabus-grid-descreption {
+
+    margin: 1rem 2rem 0;
+}
+}
+
+@media only screen and (width:1024px) {
+    .section-responsive {
+    max-width: 90%;
+    
+}
+.section-progress {
+    
+    max-width: 90%;
+}
+.section-syllabus {
+   
+    max-width: 90%;
+}
+.syllabus-html-descreption {
+
+    margin: 1rem 3rem 0;
+}
+.syllabus-css-descreption {
+
+    margin: 1rem 3rem 0;
+}
+.syllabus-acc-descreption {
+
+    margin: 1rem 3rem 0;
+}
+.syllabus-visuel-descreption {
+
+    margin: 1rem 3rem 0;
+}
+.syllabus-prin-descreption {
+
+    margin: 1rem 3rem 0;
+}
+.syllabus-flexbox-descreption {
+
+    margin: 1rem 3rem 0;
+}
+.syllabus-grid-descreption {
+
+    margin: 1rem 3rem 0;
+}
+}
+
+@media only screen and (width:1440px) {
+.section-responsive {
+    max-width: 80%;
+    
+}
+.section-progress {
+    
+    max-width: 80%;
+}
+.section-syllabus {
+   
+    max-width: 80%;
+}
 }
