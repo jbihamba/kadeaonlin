@@ -981,21 +981,24 @@ aside h2{
 .section-responsive h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5rem;
+    color: #3e3d3d;
     padding: 20px 0;
+   
 }
 .section-responsive p{
     font-family: Arial, Helvetica, sans-serif;
     color: #e30613;
     font-size: 1.17rem;
+    font-weight: 700;
 }
 .div-alerte {
     background-color: #d9edf7;
     border-color: #bce8f1;
     padding: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 3rem;
     border: 1px solid transparent;
     border-radius: 5px;
-    margin-top: 2rem;
+    margin-top: 4rem;
    
 }
 .div-alerte p{
@@ -1016,8 +1019,412 @@ aside h2{
     font-weight: 200;
     color: #27272a;
 }
-    /* Responsive*/
-    /* Home page */
+.section-progress{
+    margin: 0 auto;
+    max-width: 60%;
+}
+.section-progress h2{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3e3d3d;
+    margin: 3rem 0;
+}
+.progress-contenair{
+    background: #f5f6f7;
+    height: 100%;
+    padding: 5%;
+    border-radius: 5px;
+}
+.div-progress{
+    background-color: #fff;
+     padding: 0 15px
+}
+.div-progress p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #3e3d3d;
+    padding: 10px;
+
+}
+progress{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 25px;
+}
+
+/*Syllabus html*/
+
+.section-syllabus{
+    margin: 0 auto;
+    max-width: 60%;
+}
+.section-syllabus h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #3e3d3d;
+    margin-top: 5rem;
+    
+
+}
+.syllabus-html-contenair{
+    background-color: #f5f6f7;
+    padding: 0.5rem 3rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+  
+    
+}
+.syllabus-html-content{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+.syllabus-html-title{
+    display: flex;
+    align-items: center;
+   
+}
+.syllabus-html-title h2{
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #3e3d3d;
+    width: 10%;
+
+}
+.syllabus-html-title h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #3e3d3d;
+    text-transform: capitalize;
+}
+
+.syllabus-html-descreption{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 18px 0;
+    margin: 1rem 6rem 0;
+}
+.syllabus-html-descreption p{
+    font-size: 1.17rem;
+    line-height: 1.5rem;
+    color: #3e3d3d;
+    
+}
+.details details{
+    padding: 20px 15px;
+    cursor: pointer;
+}
+.details summary{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.17rem;
+    color: #3e3d3d;
+}
+.details ul{
+    margin-left: 2rem;
+    list-style-type: circle;
+}
+.details li::marker{
+    font-size: 40px;
+}
+.details a{
+    text-decoration: none;
+    font-size: 1.33rem;
+    color: #3e3d3d;
+}
+
+/*syllabus css*/
+
+.syllabus-css-contenair{
+    background-color: #f5f6f7;
+    padding: 0.5rem 3rem;
+    border-radius: 5px;
+   
+
+}
+.syllabus-css-content{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px 0;
+ 
+}
+.syllabus-css-title{
+    display: flex;
+    align-items: center;
+   
+}
+.syllabus-css-title h2{
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #3e3d3d;
+    width: 10%;
+
+}
+.syllabus-css-title h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #3e3d3d;
+    text-transform: capitalize;
+}
+
+.syllabus-css-descreption{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 18px 0;
+    margin: 1rem 6rem 0;
+}
+.syllabus-css-descreption p{
+    font-size: 1.17rem;
+    line-height: 1.5rem;
+    color: #3e3d3d;
+}
+
+/*design visuel*/
+
+.syllabus-visuel-contenair{
+    background-color: #f5f6f7;
+    padding: 0.5rem 3rem;
+    border-radius: 5px;
+}
+
+.syllabus-visuel-content{
+    background-color: #fff;
+    border-radius: 5px;
+   padding: 15px 0;
+ 
+}
+.syllabus-visuel-title{
+    display: flex;
+    align-items: center;
+   
+}
+.syllabus-visuel-title h2{
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #3e3d3d;
+    width: 10%;
+
+}
+.syllabus-visuel-title h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #3e3d3d;
+    text-transform: capitalize;
+}
+
+.syllabus-visuel-descreption{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 18px 0;
+    margin: 1rem 6rem 0;
+}
+.syllabus-visuel-descreption p{
+    font-size: 1.17rem;
+    line-height: 1.5rem;
+    color: #3e3d3d;
+}
+
+/*accessiblite applique*/
+
+.syllabus-acc-contenair{
+    background-color: #f5f6f7;
+    padding: 0.5rem 3rem;
+    border-radius: 5px;
+   
+
+}
+.syllabus-acc-content{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px 0;
+ 
+}
+.syllabus-acc-title{
+    display: flex;
+    align-items: center;
+   
+}
+.syllabus-acc-title h2{
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #3e3d3d;
+    width: 10%;
+
+}
+.syllabus-acc-title h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #3e3d3d;
+    text-transform: capitalize;
+}
+
+.syllabus-acc-descreption{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 18px 0;
+    margin: 1rem 6rem 0;
+}
+.syllabus-acc-descreption p{
+    font-size: 1.17rem;
+    line-height: 1.5rem;
+    color: #3e3d3d;
+}
+
+/*principe du responsive*/
+
+.syllabus-prin-contenair{
+    background-color: #f5f6f7;
+    padding: 0.5rem 3rem;
+    border-radius: 5px;
+   
+
+}
+.syllabus-prin-content{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px 0;
+ 
+}
+.syllabus-prin-title{
+    display: flex;
+    align-items: center;
+   
+}
+.syllabus-prin-title h2{
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #3e3d3d;
+    width: 10%;
+
+}
+.syllabus-prin-title h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #3e3d3d;
+    text-transform: capitalize;
+}
+
+.syllabus-prin-descreption{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 18px 0;
+    margin: 1rem 6rem 0;
+}
+.syllabus-prin-descreption p{
+    font-size: 1.17rem;
+    line-height: 1.5rem;
+    color: #3e3d3d;
+}
+
+/*flexbox css*/
+
+.syllabus-flexbox-contenair{
+    background-color: #f5f6f7;
+    padding: 0.5rem 3rem;
+    border-radius: 5px;
+   
+
+}
+.syllabus-flexbox-content{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px 0;
+ 
+}
+.syllabus-flexbox-title{
+    display: flex;
+    align-items: center;
+   
+}
+.syllabus-flexbox-title h2{
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #3e3d3d;
+    width: 10%;
+
+}
+.syllabus-flexbox-title h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #3e3d3d;
+    text-transform: capitalize;
+}
+
+.syllabus-flexbox-descreption{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 18px 0;
+    margin: 1rem 6rem 0;
+}
+.syllabus-flexbox-descreption p{
+    font-size: 1.17rem;
+    line-height: 1.5rem;
+    color: #3e3d3d;
+}
+
+/*Grid*/
+
+.syllabus-grid-contenair{
+    background-color: #f5f6f7;
+    padding: 0.5rem 3rem 6rem;
+    border-radius: 5px;
+   margin-bottom: 6rem;
+
+}
+.syllabus-grid-content{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px 0;
+ 
+}
+.syllabus-grid-title{
+    display: flex;
+    align-items: center;
+   
+}
+.syllabus-grid-title h2{
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #3e3d3d;
+    width: 10%;
+
+}
+.syllabus-grid-title h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #3e3d3d;
+    text-transform: capitalize;
+}
+
+.syllabus-grid-descreption{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 18px 0;
+    margin: 1rem 6rem 0;
+}
+.syllabus-grid-descreption p{
+    font-size: 1.17rem;
+    line-height: 1.5rem;
+    color: #3e3d3d;
+}
+
+
+
+
+
+
+
+                /* Responsive*/
+                /* Home page */
 
 @media only screen and (max-width:768px) {
     header{
