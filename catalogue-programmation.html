@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Nos cours | kadea Online</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+                            <!--header-->
+
+                        <header class="header-catalogue">
+                            <nav class="navbar">
+                                <div class="nav-logo">
+                                    <a href="">
+                                        <img class="logo" src="images/kda-learning-plateform-landing-logo.png" alt="logo">
+                                    </a>
+                                </div>
+                                <div class="menu">
+
+                                    <!--Menu-->
+
+                                    <input type="checkbox" id="menu" name="menu" hidden>
+                                    <label for="menu" class="menu-icon"><img src="images/align-justify.svg" alt="menu"></label>
+
+                                        <!-- Liens de navigation  -->
+
+                                    <ul class="nav-list">
+
+                                    <li class=""><a href="index.html" class="rouge">Accueil</a></li>
+                                    <li><a href="catalogue.html">Catalogue</a></li>
+                                    <li><a href="">Academie &nearrow; </a></li>
+                                    <li class=""><a href="connection.html" class="connection">Connection</a></li>
+                                </ul>
+                                </div>
+                            
+                            </nav>
+                            
+                        </header>
+                <main class="main-catalogue">
+                     <input type="checkbox" id="filtrer" name="filtrer" hidden>
+                     <label for="filtrer" class="filtre-icon">
+                       <span class="filtre-img">
+                            <strong>
+                                Filtrer par
+                            </strong>
+                            <img src="images/list-filter.svg" alt="menu">
+                       </span>
+
+                     </label>
+                     <!--<label for="filtrer" class="filtre-icon">Filtrer<img src="images/list-filter.svg" alt="menu"></label>
+                -->   
+                    <aside class="aside-catalogue">
+                        <div class="flitre-menu">
+                            <h2>Filtrer par :</h2>
+                            
+                        </div>
+
+                        <nav class="navbar-catalogue">
+
+                            <p>
+                                sujet &#8743;
+                            </p>
+                            <ul>
+                                <li><a href="#" class="tous-red">Tous</a></li>
+                                <li><a href="catalogue-programmation.html">Programmation</a></li>
+                                <li><a href="#">Amazon web Service</a></li>
+                                <li><a href="#">Bureautique</a></li>
+                                <li><a href="#">Marketing - communication</a></li>
+                                <li><a href="#">Intelligence-Artificiel</a></li>
+                            </ul>
+ 
+                        </nav>
+                        <nav class="navbar-catalogue">
+                            <p>
+                                Langue &#8743;
+                            </p>
+                            <form action="langues">
+                                 <input type="checkbox" id="francais" name="francais" value="francais">
+                                <label for="francais"> Francais</label><br>
+                                <input type="checkbox" id="anglais" name="anglais" value="anglais">
+                                <label for="anglais"> Anglais</label><br>
+                            </form>
+
+                        </nav>
+
+                        <nav class="navbar-catalogue">
+                            <p>
+                                Type &#8743;
+                            </p>
+                             <form action="type">
+                                <input type="checkbox" id="cours" name="cours" value="cours">
+                                <label for="cours">Cours</label><br>
+                                <input type="checkbox" id="parcours" name="parcours" value="parcours">
+                                <label for="parcours"> Parcours</label><br>
+                             </form>
+                        </nav>
+                        <nav class="navbar-catalogue">
+                            <p>
+                                Niveau &#8743;
+                            </p>
+                            <form action="niveau">
+                                <input type="checkbox" id="debutant" name="debutant" value="debutant">
+                                <label for="debutant">Debutant</label><br>
+                                <input type="checkbox" id="moyen" name="moyen" value="moyen">
+                                <label for="moyen"> Intermediaire</label><br>
+                                <input type="checkbox" id="avance" name="avance" value="avance">
+                                <label for="avance"> Avancee</label><br>
+                            </form>
+                        </nav>
+                        <nav class="navbar-catalogue">
+                            <p>
+                                Duration &#8743;
+                            </p>
+                            <form action="duration">
+                                 <input type="checkbox" id="uneheure" name="uneheure" value="uneheure">
+                                <label for="uneheure">-1H</label><br>
+                                <input type="checkbox" id="unecinq" name="unecinq" value="unecinq">
+                                <label for="unecinq"> 1H - 5H</label><br>
+                                <input type="checkbox" id="pluscinq" name="pluscinq" value="pluscinq">
+                                <label for="pluscinq"> + 5H</label><br>
+                            </form>
+                        </nav>
+
+                    </aside>
+                    <section class="section-catalogue">
+                         <h1><span>Catalogue</span> /programmation</h1>
+                        
+            
+                        <!--nouveau parcours-->
+
+                        <article class="nouveau-parcours">
+                           
+                            <h2 class="path-title">
+                                Decouvre le parcours Programmation
+                            </h2>
+                            <p class="path-description">
+                                Dans ce parcours ,tu apprendras a creer des pages web avec HTML pour le contenu , 
+                                CSS pour la conception et JavaScript pour rendre les sites interactif .
+                                Tu decouvrira egalement les algorithmes ,les structure de donnees,
+                                et base du langage JavaScript .
+                            </p>
+                        </article>
+
+                        <!--Carte-->
+
+                        <section class="section-carte">
+                            <div class="course-number">
+                               <h2>Parcourir le categue complet</h2>
+                                <p>2 cours</p>
+                            </div>
+                          <div class="div-carte">  
+                            <article class="card-course-detaille">
+                                <div class="card-course">
+                                     <a href="responsive.html">Cours</a>
+                                </div>
+                               
+                                    <div class="we-act">
+                                        <img src="images/we-act-logo.png" alt="we-act-logo">
+                                        <h4>Responsive web Design</h4>
+                                        <p>
+                                            Ce cours t'apprend les langage HTML pour contenu et CSS pour la conception,
+                                            ainsi que la creation de pages Web adaptives pour differente taille... 
+                                        </p>
+                                    </div>
+                                    <div class="card-debut-logo">
+                                        <img src="images/debut.svg" alt="debut">
+                                        <p>Debutant</p>
+                                       
+                                    </div>
+                                    <div class="lang-fr">
+                                         <p>Francais</p>
+                                    </div>
+                                    <div class="card-suivre-cours">
+                                        <a href="responsive.html">Suivre le cours </a>
+                                        <img src="images/lecture.svg" alt="lecture">
+                                    </div>
+                                </article>
+
+                                    <!--Article 2-->
+
+                                <article class="card-course-detaille">
+                                    <div class="card-course">
+                                        <a href="#">Cours</a>
+                                    </div>
+                                
+                                    <div class="we-act">
+                                        <img src="images/algorithm.svg" alt="algorithm">
+                                        <h4>JavaScript algorithm and data structure</h4>
+                                        <p>
+                                            Ce cours t'enseigne les bases de JavaScript pour rendre les pages interactif,
+                                            ainsi que les algorithmes et structure de donnees en JavaScript etc ...
+                                        </p>
+                                    </div>
+                                    <div class="card-debut-logo">
+                                        <img src="images/debut.svg" alt="debut">
+                                        <p>Debutant</p>
+                                       
+                                    </div>
+                                   <div class="lang-fr">
+                                     <p>Francais</p>
+                                   </div>
+                                    
+                                    <div class="card-suivre-cours">
+                                        <a href="#">Suivre le cours </a>
+                                        <img src="images/lecture.svg" alt="lecture">
+                                    </div>
+                                </article>
+
+                    </section>
+                </main>
+        </body>
+</html>
