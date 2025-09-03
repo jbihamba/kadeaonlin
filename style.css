@@ -709,19 +709,31 @@ footer{
 .filtre-icon img{
     width: 15px;
 }
+.filtre-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 aside h2{
     font-family: Arial, Helvetica, sans-serif;
     color: #3e3d3d;
     font-size: 1.25rem;
     font-weight: 700;
-    padding-bottom: 4rem;
+    /*padding-bottom: 4rem;*/
   
 }
 .navbar-catalogue p{
   color: #3e3d3d;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
-  font-weight: 700;  
+  font-weight: 700;
+  padding-bottom: 1rem;  
 }
 .navbar-catalogue ul{
      font-size: 18px;
@@ -750,6 +762,10 @@ aside h2{
     font-weight: 700;
     color: #3e3d3d;
     padding-bottom: 6rem;
+}
+.section-catalogue span{
+    color: #e5203d;
+    font-weight: 100;
 }
 .sujet{
     font-family: Arial, Helvetica, sans-serif;
@@ -971,6 +987,35 @@ aside h2{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
+
+@media only screen and (width:1024px) {
+
+.main-catalogue {
+   
+    max-width: 80%;
+
+}
+.div-carte {
+  gap: 1rem;
+
+}
+.card-course-detaille {
+
+    width: 48%;
+
+}
+}
+
+@media only screen and (width:1440px) {
+.main-catalogue {
+
+    max-width: 80%;
+    
+}
+}
+
+
+
 
         /*reponsive web design page*/
 
